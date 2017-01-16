@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.GUIResolver" version="0.0.1" name="GUIResolver" provider-name="Noire">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="guiresolver.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">GUIResolver</summary>
+		<description lang="en">A simple plugin to pass a url to URLResolver</description>
+		<disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
